@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Carbon City</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <canvas id="scene" aria-label="Carbon City 3D city view"></canvas>
+
+    <div id="ui">
+      <header id="topbar" class="panel"></header>
+      <aside id="tip-panel" class="panel"></aside>
+      <section id="build-panel" class="panel"></section>
+      <section id="war-panel" class="panel" hidden></section>
+      <div id="banner" hidden></div>
+      <div id="toasts" aria-live="polite"></div>
+
+      <div id="loading" class="overlay">
+        <div class="card">
+          <div class="spinner" aria-hidden="true"></div>
+          <h1>Loading Carbon City</h1>
+          <p>Building the city and starting the simulation…</p>
+        </div>
+      </div>
+
+      <div id="unsupported" class="overlay" hidden>
+        <div class="card">
+          <h1 id="unsupported-title">WebGPU is not available in this browser</h1>
+          <p>
+            Carbon City draws its 3D world with WebGPU, which this browser has
+            not enabled.
+          </p>
+          <p>
+            Use a current version of <strong>Google Chrome</strong>,
+            <strong>Microsoft Edge</strong>, or <strong>Safari</strong> (Safari
+            26 or newer).
+          </p>
+          <p class="muted">
+            If you are already using one of those browsers, check that hardware
+            acceleration is turned on, then reload the page.
+          </p>
+          <p id="unsupported-detail" class="detail"></p>
+        </div>
+      </div>
+    </div>
+
+    <noscript>
+      <div class="overlay">
+        <div class="card">
+          <h1>JavaScript is required</h1>
+          <p>Enable JavaScript to play Carbon City.</p>
+        </div>
+      </div>
+    </noscript>
+
+    <script type="module" src="/js/main.js"></script>
+  </body>
+</html>

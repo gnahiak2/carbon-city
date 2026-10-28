@@ -1,0 +1,22 @@
+[
+  {
+    "id": "verdant",
+    "name": "Verdant Republic",
+    "color": [0.35, 0.85, 0.45],
+    "health": 120,
+    "power": 40,
+    "aggression": 0.010,
+    "emissions": 10,
+    "description": "A forest nation that invests in wind power. It rarely attacks, but it still emits CO2."
+  },
+  {
+    "id": "ashmark",
+    "name": "Ashmark Dominion",
+    "color": [0.9, 0.35, 0.25],
+    "health": 140,
+    "power": 55,
+    "aggression": 0.018,
+    "emissions": 18,
+    "description": "An industrial empire that burns coal day and night. It attacks more often."
+  }
+]

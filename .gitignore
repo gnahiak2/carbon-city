@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+.tooling/
+.commandcode/
+.pytest_cache/
+server/saves/*.json
+.DS_Store

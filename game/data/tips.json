@@ -1,0 +1,100 @@
+[
+  {
+    "id": "power_shortage",
+    "level": "warning",
+    "priority": 10,
+    "title": "Your city needs more power",
+    "body": "Demand is higher than supply. Build a solar plant or wind turbine: clean power earns Eco Points and adds no CO2."
+  },
+  {
+    "id": "fossil_fuel",
+    "level": "info",
+    "priority": 8,
+    "title": "Fossil plants are cheap for a reason",
+    "body": "Coal and gas cost less up front, but every tick they add CO2 and warm the planet. Compare that with free sunshine and wind."
+  },
+  {
+    "id": "clean_start",
+    "level": "good",
+    "priority": 6,
+    "title": "Clean power is working",
+    "body": "Solar and wind emit no CO2. Every kilowatt of clean power also earns Eco Points, so you can grow without warming the city."
+  },
+  {
+    "id": "unspent_eco",
+    "level": "tip",
+    "priority": 4,
+    "title": "Spend your Eco Points",
+    "body": "Eco Points buy materials and land. Later they unlock a missile silo and nukes. Click Expand Land or Buy Materials in the build bar."
+  },
+  {
+    "id": "warming_high",
+    "level": "warning",
+    "priority": 11,
+    "title": "The planet is getting hotter",
+    "body": "Warming above 2°C brings heat waves and storms. Replace fossil plants with clean power, plant parks, and protect forests."
+  },
+  {
+    "id": "forest",
+    "level": "info",
+    "priority": 5,
+    "title": "Forests are carbon sinks",
+    "body": "Trees soak up CO2 as they grow. Building on a forest releases some of that carbon, so build on grass when you can."
+  },
+  {
+    "id": "roads",
+    "level": "tip",
+    "priority": 3,
+    "title": "Connect your city",
+    "body": "Roads boost the income of shops and factories next to them. A small road network pays for itself."
+  },
+  {
+    "id": "silo_unlocked",
+    "level": "good",
+    "priority": 7,
+    "title": "Missile silo unlocked",
+    "body": "You have earned enough Eco Points to build a missile silo. Wars are costly for the climate: every launch adds CO2 and leaves fallout."
+  },
+  {
+    "id": "under_attack",
+    "level": "warning",
+    "priority": 9,
+    "title": "A rival attacked your city",
+    "body": "Clean up the fallout and protect your buildings. A missile silo lets you strike back, but it will not undo the CO2."
+  },
+  {
+    "id": "nuke_unlocked",
+    "level": "good",
+    "priority": 7,
+    "title": "Nukes unlocked",
+    "body": "Nukes deal huge damage, but each one dumps CO2 into the air and leaves a lot of fallout. Use them only if you must."
+  },
+  {
+    "id": "low_materials",
+    "level": "tip",
+    "priority": 6,
+    "title": "Materials are running low",
+    "body": "Build a factory for steady materials, or buy a batch with Eco Points. Factories emit CO2, so balance them with clean power."
+  },
+  {
+    "id": "park_tip",
+    "level": "tip",
+    "priority": 2,
+    "title": "Add a park",
+    "body": "Parks make residents happier and earn a little Eco Points. They also help your city cope with a warmer climate."
+  },
+  {
+    "id": "one_rival_left",
+    "level": "good",
+    "priority": 6,
+    "title": "One rival is out",
+    "body": "Only one civilisation is still standing. Finish the fight, or focus on clean energy: your city's emissions are now the biggest part of the problem."
+  },
+  {
+    "id": "victory",
+    "level": "good",
+    "priority": 12,
+    "title": "Victory!",
+    "body": "Both rivals are defeated. Your city is safe, but the climate still needs you. Can you get emissions close to zero and keep the lights on?"
+  }
+]

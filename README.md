@@ -1,5 +1,12 @@
 # Carbon City
 
+## video demo
+
+
+
+
+
+
 A browser-playable city builder that teaches energy use and global warming.
 The simulation is authoritative Python. The 3D view is plain ES modules and
 WGSL on WebGPU, served by Flask. There is no Node, bundler, pygame or WASM

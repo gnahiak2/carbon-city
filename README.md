@@ -2,10 +2,7 @@
 
 ## video demo
 
-
-
-
-
+https://drive.google.com/file/d/1vY3an_2SgxiR-yqRD1140w4SOSXNLob1/view?usp=sharing
 
 A browser-playable city builder that teaches energy use and global warming.
 The simulation is authoritative Python. The 3D view is plain ES modules and
